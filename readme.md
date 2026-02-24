@@ -11,6 +11,7 @@ This is a script that I made to practice my skill making CLI utilities with Pyth
 **Optional arguments**
 
 `-f --file`: The file you wish to compress
+
 `-d --dir`: The directory where that file is located. If no directory is provided the script will use the current directory
 
 ## TODO
