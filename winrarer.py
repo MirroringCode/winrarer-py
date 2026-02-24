@@ -31,18 +31,18 @@ def main():
 
 
     if not os.path.isdir(RAR_LOCATION):
-        print('No se ha encontrado el comando rar. Verifique que está instalado', file=sys.stderr)
+        print('rar command not found. Verify it is installed on your system', file=sys.stderr)
         sys.exit(1)
 
     if not os.path.isdir(dir_to_compress):
-        print(f"No se ha encontrado el directorio {dir_to_compress}", file=sys.stderr)
+        print(f"Directory not found {dir_to_compress}", file=sys.stderr)
         sys.exit(1)
 
     os.chdir(dir_to_compress)
 
 
     if args.file is not None and not os.path.exists(args.file):
-        print(f"No se ha encontrado el archivo {args.file}", file=sys.stderr)
+        print(f"File not found {args.file}", file=sys.stderr)
         sys.exit(1)
 
 
