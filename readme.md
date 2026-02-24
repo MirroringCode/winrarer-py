@@ -5,9 +5,11 @@ This is a script that I made to practice my skill making CLI utilities with Pyth
 ## Expected arguments for the Script
 
 **Positional argument**
+
 `rar_name`: Is the chosen name for the resulting compressed file. At this moment all the compressed files will have the `.rar` extension
 
 **Optional arguments**
+
 `-f --file`: The file you wish to compress
 `-d --dir`: The directory where that file is located. If no directory is provided the script will use the current directory
 
